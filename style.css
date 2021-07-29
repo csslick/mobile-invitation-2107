@@ -82,8 +82,35 @@ body {
 
 #invitation .guestInfo {
   margin-top: 50px;
+  font-weight: bold;
 }
 
-#invitation .guestInfo {
-  /* 만드세요 */
+#invitation .guestInfo span{
+  font-size: 14px;
+}
+
+#call .banner {
+  height: 90px;
+  background: #999;
+  font-family: 'Nanum Myeongjo', serif;
+  line-height: 90px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  background-image: url(images/banner.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#call .phone {
+  text-align: center;
+  padding: 30px 0;
+}
+
+#call .phone  li{
+  display: inline-block;
+}
+
+#call .phone  li:first-child {
+  margin-right: 50px;
 }
