@@ -43,7 +43,7 @@ demo: https://csslick.github.io/mobile-invitation-2107/
 ```
 
 
-2. 티맵
+2. 티맵(API 홈페이지 https://openapi.sk.com/)
 ```
   <a 
     href="https://apis.openapi.sk.com/tmap/app/routes?appKey=앱키&name=목적지명&lon=위도값&lat=경도값"
@@ -51,6 +51,6 @@ demo: https://csslick.github.io/mobile-invitation-2107/
     <img src="images/tmap-icon.png" alt="티맵">
   </a>
 ```
-- API 홈페이지 https://openapi.sk.com/ 
+
 
 
