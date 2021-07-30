@@ -12,6 +12,10 @@ ul {
   list-style-type: none;
 }
 
+dt {
+  font-weight: bold;
+}
+
 body {
   font-family: 'Nanum Gothic', sans-serif;
   /* font-family: 'Nanum Myeongjo', serif; */
@@ -166,7 +170,13 @@ section h2 {
 }
 
 #video {
+  padding-top: 40px;
   padding-bottom: 40px;
+  text-align: center;
+}
+
+#video h2 {
+  margin-bottom: 30px;
 }
 
 /* 비디오 컨테이너: 16 vs 9 비율로 제작 */
@@ -178,11 +188,47 @@ section h2 {
 
 .video iframe {
   position: absolute;
+  left: 0;
+  top: 0;
 }
+
 #video p {
   font-family: 'Nanum Myeongjo', serif;
   font-weight: bold;
   text-align: center;
-  font-weight: bold;
   margin-top: 30px;
 }
+
+#location {
+  text-align: center;
+  padding-top: 40px;
+}
+#location h2 {
+  margin-bottom: 30px;
+}
+
+#location .appLink {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 40px;
+}
+
+#location .appLink li:not(:last-child) {
+  margin-right: 30px;
+}
+
+#location .container {
+  padding-top: 30px;
+}
+
+#location .transfer {
+  text-align: left;
+  line-height: 24px;
+}
+
+#location .transfer dt {
+  margin-top: 20px;
+}
+
