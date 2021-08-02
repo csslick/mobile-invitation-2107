@@ -33,6 +33,10 @@ section h2 {
   font-family: 'Nanum Myeongjo', serif;
 }
 
+#title, #call, #gallery, #video, #location {
+  background-color: #fff;
+}
+  
 #title img {
   width: 100%;
   height: 50vh;
